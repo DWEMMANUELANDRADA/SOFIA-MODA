@@ -42,6 +42,17 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
     background-size: cover;
     background-attachment: fixed;
 }
+.mostrar{
+  animation: mostrar 1s ;   
+}
+@keyframes mostrar{
+ 0%{
+   transform: translateY(65px);  
+ } 
+ 100%{
+    transform: translateY(0); 
+ }  
+}
 #barra{
 background-color: var(--main-color);
 
