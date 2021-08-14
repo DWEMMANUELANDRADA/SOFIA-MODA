@@ -7,6 +7,7 @@ let jeans= document.querySelectorAll("#jeans");
       let altura = jeans[i].offsetTop;
       if(altura - 200 < scrollTop){
         jeans[i].style.opacity=1;
+       jeans[i].classList.add("mostrar");
       }
     }
   }
@@ -18,11 +19,7 @@ let jeans= document.querySelectorAll("#jeans");
   mouseleave:function(){
     $(this).css("opacity", "1");
     
-  }});/* evento blur
-  $("#boton1").click(function(e){
-    $("#foto-jeans").css("opacity",".3");
-    e.preventDefault();
-  });*/
+  }});
   
 });
 
