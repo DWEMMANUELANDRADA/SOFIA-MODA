@@ -47,10 +47,10 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 @keyframes mostrar{
  0%{
-   transform: translateY(65px);  
+   transform: translateX(-65px);  
  } 
  100%{
-    transform: translateY(0); 
+    transform: translateX(0); 
  }  
 }
 #barra{
